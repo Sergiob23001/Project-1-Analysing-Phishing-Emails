@@ -28,7 +28,7 @@ Step 1: Identify any red flags for each bullet point in the body of the email:
 13) Unusual sender’s email domain: The email might come from a suspicious or untrusted domain, rather than an official company email (e.g., "info@gmail.com" instead of "support@company.com").
 14) No signature or contact information: Legitimate companies usually include proper signatures and contact details at the end of their emails.
 
-Step 2: Analyse the Body of the Email:
+Step 2: Analyse the Header of the Email:
 
 1) "From" Address:
 Check the sender's email address for inconsistencies or slight misspellings that mimic legitimate domains (e.g., "support@paypa1.com" instead of "support@paypal.com").
