@@ -63,6 +63,7 @@ Using MXToolBox, DKIM Alignment is wrong:
 ![image](https://github.com/user-attachments/assets/c3b1d0d3-f782-4c9f-aeb7-953e5b8c5e00)
 
 I´ve included the first part of the real and fake information:
+![image](https://github.com/user-attachments/assets/14674f8d-1ec4-4cc0-a4db-8f04c4da4ea2)
 
 
 
