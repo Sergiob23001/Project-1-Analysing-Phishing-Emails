@@ -60,6 +60,7 @@ Do not download or open any attachments unless you are certain of their legitima
 DKIM verifies if the email was sent by the legitimate domain. Check if the DKIM signature in the header is valid and aligned with the domain of the email sender.
 
 Using MXToolBox, DKIM Alignment is wrong:
+![image](https://github.com/user-attachments/assets/c3b1d0d3-f782-4c9f-aeb7-953e5b8c5e00)
 
 I´ve included the first part of the real and fake information:
 
