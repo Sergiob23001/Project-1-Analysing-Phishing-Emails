@@ -1,5 +1,5 @@
 # Project-1-Analysing-Phishing-Emails
-Analyse the Body of the Email
+
 
 For this project, I´ve used the following website to get free phishing emails to analyse: phishing_pot/email at main · rf-peixoto/phishing_pot · GitHub and I´ve selected an email 
 
@@ -32,8 +32,8 @@ Step 2: Analyse the Header of the Email:
 
 1) "From" Address:
 Check the sender's email address for inconsistencies or slight misspellings that mimic legitimate domains (e.g., "support@paypa1.com" instead of "support@paypal.com").
-Verify if the domain matches the supposed sender's official domain.
-In this example From address: "Mary" <noreply@att.net>
+
+Verify if the domain matches the supposed sender's official domain. In this example It doesn´t, it is send from address: "Mary" <noreply@att.net>
 
 2) "Reply-To" Address
 Inspect the "Reply-To" field. Phishing emails often use a different reply address than the "From" address, redirecting replies to the scammer.
@@ -43,20 +43,22 @@ In this example Reply-To Address is the same: noreply@att.net
 3) "Received" Fields
 Check the "Received" headers to trace the path of the email. Compare the IP addresses and domains to ensure they originate from a legitimate source.
 If the email claims to be from a well-known service but the IP belongs to an unrelated provider, this is suspicious.
+
 In this example, domain from: her.heritagejewelryandloan.com (192.232.233.127) Real domain:  https://heritagejewelryandloan.com 
 
-4) IP Address and Domain Reputation
+5) IP Address and Domain Reputation
 Analyse the IP addresses in the "Received" fields. Use tools like MXToolbox or IPVoid to check if the IP is associated with phishing or spam.
 Look up the sending domain for any blacklists or warnings using domain reputation tools like Whois or MXToolbox.
 
 
 
-5) External Links and Attachments
+6) External Links and Attachments
 Hover over any links to inspect their true destination. Ensure they match the expected domain (e.g., "delivero[.]com"). Use tools like VirusTotal or PhishTank to scan URLs for malware or phishing attempts.
 Do not download or open any attachments unless you are certain of their legitimacy. Suspicious attachments should be scanned using antivirus software or online services like VirusTotal to check for malware.
 
 5) DKIM Signature (DomainKeys Identified Mail)
 DKIM verifies if the email was sent by the legitimate domain. Check if the DKIM signature in the header is valid and aligned with the domain of the email sender.
+
 Using MXToolBox, DKIM Alignment is wrong:
 
 I´ve included the first part of the real and fake information:
